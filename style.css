@@ -1,0 +1,290 @@
+
+/*Navbar */
+.nav-item{
+  margin-left: 20%;
+}                 
+#logo{
+  padding-left: 5%;
+  margin-top: 1%; 
+}
+li {
+       float: left;
+  }  
+  a {
+    color:red;
+    text-decoration: none;   
+  }
+  a:hover {
+    color:red;
+    text-decoration: none; 
+  }
+  a:visited {
+    color:red;
+    display: none;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 15%;
+    padding-top: 3%;
+    font-size: 13pt;
+    font-family:  Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  }
+  /*redes sociais*/ 
+.redes{
+  margin-top: 2%;
+}
+#facebook{
+  margin-left: 3%;
+  margin-top: 2%;
+}
+#facebook:hover{
+    margin-left: 3%;
+    margin-top: 2%;
+    border:solid 1px white;
+    border-radius: 5px;
+    width: 28px;
+    height: 28px;
+}
+#instagram{
+  margin-left: 3%;
+  margin-top: 1%;
+}
+#instagram:hover{
+  margin-left: 3%;
+  margin-top: 1%;
+  border:solid 1px white;
+  border-radius: 5px;
+  width: 28px;
+  height: 28px;
+}
+/*rotapé*/
+.rotape{
+  padding-top:200px;
+}
+#fundorotape{
+  background-color: rgb(23, 19, 65);
+  width: 100%;
+  height:340px;
+  margin-top: 4%;
+}
+#logo{
+  margin-top: 2%;
+  margin-left: -5%;
+}
+/*banerweb*/
+.banner{
+  margin-left:45%;
+  margin-top: 5%;
+  
+}
+.bannertext{
+  margin-left: 40%;
+  font-size: 20pt;
+}
+#textbanner{
+  margin-top: 3%;
+  margin-left:15%;
+  width: 75%;
+  font-size: 20pt;
+  justify-content: justify;
+}
+/*GRID Container*/
+
+
+.grid-item{
+  border-radius: 150px;
+  width: 250px;
+  height: 250px;
+ 
+}
+.grid-item{
+  margin-top: 2%;
+  position: relative;
+  border: 3px  rgb(219, 219, 225) solid;
+  margin-left: 21%;
+}
+#gridtitulo{
+  font-size: 20pt;
+  margin-top:4%;
+  margin-left: 35%;
+  color:black;
+}
+#gridtext{
+  font-size: 14pt;
+  margin-top:8%;
+  margin-left: 2%;
+}
+#img{
+  padding-left: 10%;
+  padding-top: 15%;
+  opacity: 0.6;
+}
+.grid-fundo{
+  width: 450px;
+  height: 400px;
+  margin-top:3%;
+  margin-left: 3%;
+  border-radius: 15px;
+}
+.grid-fundo:hover{
+  width: 450px;
+  height: 410px;
+  margin-top:3%;
+  border: 4px rgb(144, 155, 235) solid ;
+  margin-left: 3%;
+  border-radius: 15px;
+}
+#gridtext:hover{
+  font-size: 16pt;
+  margin-top:8%;
+  margin-left: 2%;
+}
+.grid-fundo:hover{
+  width: 450px;
+  height: 420px;
+  margin-top:3%;
+  margin-left: 3%;
+  border-radius: 15px;
+}
+.tituloconteudo{
+  margin-top: 3%;
+  margin-left: 15%;
+  font-size: 36pt;
+  font-family: impact Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  width: 100%;
+  height: 100px;
+  background-color: rgb(21, 21, 46);
+  color:white;
+  border-radius: 14px 1px 1px 14px;
+}
+.textconteudo{
+  font-size: 14pt;
+  font-family: impact Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  word-spacing: 1.5px;
+  margin-top: 5%;
+  margin-left: 2%;
+  margin-right: 2%;
+  
+}
+
+.conteudo{
+  width: 80%;
+  margin-left: 8%;
+  /*background-color: rgb(230, 243, 248);*/
+  border-radius: 10px;
+}
+.conteudoimg1{
+  margin-left: 40%;
+  margin-top:2%;
+}
+.conteudoimg2{
+  margin-left: 20%;
+  margin-top:2%;
+}
+
+/*Resolução em 778px*/
+@media screen and (max-width: 778px){
+  
+  .rotape{
+    padding-top: 200px;
+    position: relative;
+    margin-left:0%;
+    margin-top: 50%;
+  }
+  .redes{
+    margin-left:auto;
+  }
+  #facebook{
+    margin-left: 3%;
+    margin-top: 2%;
+  }
+  #facebook:hover{
+      margin-left: 3%;
+      margin-top: 2%;
+      border:solid 1px white;
+      border-radius: 5px;
+      width: 28px;
+      height: 28px;
+  }
+  #instagram{
+    margin-left: 3%;
+    margin-top: 1%;
+  }
+  #instagram:hover{
+    margin-left: 3%;
+    margin-top: 1%;
+    border:solid 1px white;
+    border-radius: 5px;
+    width: 28px;
+    height: 28px;
+  }
+  #logo{
+    margin-top: 2%;
+    margin-left: -20%;
+  }
+}
+
+/*Resolução em 600px*/
+@media screen and (max-width: 600px) { 
+  .rotape{
+    padding-top: 200px;
+    position: relative;
+    margin-left: 0%;
+    margin-top: 10%;
+  }
+  .redes{
+    margin-left:auto;
+  }
+  #facebook{
+    margin-left: 3%;
+    margin-top: 2%;
+  }
+  #facebook:hover{
+      margin-left: 3%;
+      margin-top: 2%;
+      border:solid 1px white;
+      border-radius: 5px;
+      width: 28px;
+      height: 28px;
+  }
+  #instagram{
+    margin-left: 3%;
+    margin-top: 1%;
+  }
+  #instagram:hover{
+    margin-left: 3%;
+    margin-top: 1%;
+    border:solid 1px white;
+    border-radius: 5px;
+    width: 28px;
+    height: 28px;
+  }
+  #logo{
+    margin-left: -5%;
+  }  
+  /*Banner web*/
+  .banner{
+    margin-left:45%;
+    margin-top: 5%;
+     }
+     h2{
+       font-size:16pt;
+     }
+  .bannertext{
+    margin-left: 20%;
+    font-size: 20pt;
+  }
+  #textbanner{
+    margin-top: 3%;
+    margin-left:5%;
+    width: 75%;
+    font-size: 14pt;
+    justify-content: justify;
+  }
+}
+
+

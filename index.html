@@ -1,0 +1,337 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>  
+    <title>MarkDiv Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>  
+ <!--NavBar--><!--tudo é bootstrap-->
+ <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+     
+  <!-- Hamburguer-->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- links -->
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Inicial</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contatos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sobre</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+    <!--Carrossel--><!--bootstrap-->
+    <div id="demo" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+    
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/banner1.jpg" width="100%" alt="Los Angeles">
+          <div class="carousel-caption">
+            <h3>Front-End X Back-End</h3>
+            <p>We had such a great time in LA!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner2.jpg" width="100%" alt="Los Angeles">
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner3.jpeg" width="100%" alt="Los Angeles">
+        </div>
+      </div>
+    
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    
+    </div>
+    
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Voltar</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Próximo</span>
+      </a>
+    </div>
+   <!--/Carrossel-->
+   <div class="banner">
+    <img src="img/web.png" width="18%">
+  </div>
+     <div class="bannertext">
+      Desenvolvimento Web
+    </div>
+    <div id="textbanner">
+      Desenvolvimento web é a área da tecnologia voltada à construção 
+        de sites, aplicativos, softwares, bancos de dados e quaisquer outras
+        ferramentas que, de certa forma, constroem a internet como a conhecemos 
+        hoje    
+      
+    </div>      
+  
+    <!--GRID-->
+    <div class="row"><!--bootstrap-->
+      <div class="col"><!--bootstrap-->
+        <div class="grid-container">
+          <div class="grid-fundo">
+             <div class="grid-item">
+              <div id="img">
+                 <img src="img/icones/html.png" width="200" alt="" >  
+              </div>  
+                 <div id="gridtitulo">
+                  <a href="html.html">HTML  </a>  
+                </div>                   
+               </div>
+            <div id="gridtext">
+              É o bloco de construção mais básico da web. Define 
+              o significado e a estrutura do conteúdo da web   
+            </div> 
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="grid-fundo">
+          <div class="grid-item">
+           <div id="img">
+            <img src="img/icones/css.png" width="200" alt="" >   
+           </div>  
+              <div id="gridtitulo">
+               CSS3   
+             </div>                   
+            </div>
+         <div id="gridtext">
+          é uma linguagem de estilo (en-US) usada para 
+          descrever a apresentação de um documento escrito
+          em HTML ou em XML.   
+         </div> 
+       </div>
+      </div>
+      <div class="col">
+        <div class="grid-fundo">
+         <div class="grid-item">
+          <div id="img">
+           <img src="img/icones/js.png" width="200" alt="" >   
+          </div>  
+             <div id="gridtitulo">
+              JavaScript   
+            </div>                   
+           </div>
+        <div id="gridtext">
+         É uma linguagem leve, interpretada e baseada 
+         em objetos com funções de primeira classe, 
+         mais conhecida como a linguagem de script
+         para páginas Web.   
+        </div> 
+      </div>
+    </div>
+      <div class="col">
+        <div class="grid-fundo">
+          <div class="grid-item">
+           <div id="img">
+            <img src="img/icones/bootstrap.png" width="195" alt="" >    
+           </div>  
+              <div id="gridtitulo">
+               Bootstrap   
+             </div>                   
+            </div>
+         <div id="gridtext">
+          É uma linguagem leve, interpretada e baseada 
+          em objetos com funções de primeira classe, 
+          mais conhecida como a linguagem de script
+          para páginas Web.   
+         </div> 
+        </div>
+      </div>
+      <div class="col">
+        <div class="grid-fundo">
+          <div class="grid-item">
+           <div id="img">
+            <img src="img/icones/wordpress.png" width="200" alt="" >     
+           </div>  
+              <div id="gridtitulo">
+               Wordpress   
+             </div>                   
+            </div>
+         <div id="gridtext">
+          É uma linguagem leve, interpretada e baseada 
+          em objetos com funções de primeira classe, 
+          mais conhecida como a linguagem de script
+          para páginas Web.   
+         </div> 
+        </div>
+      </div>
+      
+      <div class="col">
+        <div class="grid-fundo">
+          <div class="grid-item">
+           <div id="img">
+            <img src="img/icones/react.png" width="200" alt="" >     
+           </div>  
+              <div id="gridtitulo">
+               React.js   
+             </div>                   
+            </div>
+         <div id="gridtext">
+          É uma linguagem leve, interpretada e baseada 
+          em objetos com funções de primeira classe, 
+          mais conhecida como a linguagem de script
+          para páginas Web.   
+         </div> 
+        </div>
+      </div>
+      <div class="col">
+        <div class="grid-fundo">
+          <div class="grid-item">
+           <div id="img">
+            <img src="img/icones/angular.png" width="200" alt="" >    
+           </div>  
+              <div id="gridtitulo">
+               Angular  
+             </div>                   
+            </div>
+         <div id="gridtext">
+          É uma linguagem leve, interpretada e baseada 
+          em objetos com funções de primeira classe, 
+          mais conhecida como a linguagem de script
+          para páginas Web.   
+         </div> 
+        </div>
+      </div>
+      <div class="col">
+        <div class="grid-fundo">
+          <div class="grid-item">
+           <div id="img">
+            <img src="img/icones/rudy.png" width="200" alt="" >     
+           </div>  
+              <div id="gridtitulo">
+               Ruby  
+             </div>                   
+            </div>
+         <div id="gridtext">
+          É uma linguagem leve, interpretada e baseada 
+          em objetos com funções de primeira classe, 
+          mais conhecida como a linguagem de script
+          para páginas Web.   
+         </div> 
+        </div>
+      </div>
+      <div class="col">
+        <div class="grid-fundo">
+          <div class="grid-item">
+           <div id="img">
+            <img src="img/icones/node.png" width="200" alt="" >     
+           </div>  
+              <div id="gridtitulo">
+               Node.JS  
+             </div>                   
+            </div>
+         <div id="gridtext">
+          É uma linguagem leve, interpretada e baseada 
+          em objetos com funções de primeira classe, 
+          mais conhecida como a linguagem de script
+          para páginas Web.   
+         </div> 
+        </div>
+      </div>
+      <div class="col">
+        <div class="grid-fundo">
+          <div class="grid-item">
+           <div id="img">
+            <img src="img/icones/lavarel.png" width="200" alt="" >     
+           </div>  
+              <div id="gridtitulo">
+               Lavarel  
+             </div>                   
+            </div>
+         <div id="gridtext">
+          É uma linguagem leve, interpretada e baseada 
+          em objetos com funções de primeira classe, 
+          mais conhecida como a linguagem de script
+          para páginas Web.   
+         </div> 
+        </div>
+      </div>
+      <div class="col"><div class="grid-fundo">
+        <div class="grid-item">
+         <div id="img">
+          <img src="img/icones/php.png" width="200" alt="" >     
+         </div>  
+            <div id="gridtitulo">
+             PHP 
+           </div>                   
+          </div>
+       <div id="gridtext">
+        É uma linguagem leve, interpretada e baseada 
+        em objetos com funções de primeira classe, 
+        mais conhecida como a linguagem de script
+        para páginas Web.   
+       </div> 
+      </div>
+    </div>
+      <div class="col">
+        <div class="grid-fundo">
+          <div class="grid-item">
+           <div id="img">
+            <img src="img/icones/c++.png" width="200" alt="" >     
+           </div>  
+              <div id="gridtitulo">
+               C++
+             </div>                   
+            </div>
+         <div id="gridtext">
+          É uma linguagem leve, interpretada e baseada 
+          em objetos com funções de primeira classe, 
+          mais conhecida como a linguagem de script
+          para páginas Web.   
+         </div> 
+        </div>
+      </div>
+    </div>
+    <!--/GRID-->
+    <!--Rotapé-->
+<div class="rotape">
+  <div id="fundorotape">
+    <div id="logo">
+      <img src="img/logo.png" width="230" >
+    </div>
+    <div class="redes">
+      <div id="facebook">             
+        <a href="https://www.facebook.com/markdivweb"><img src="img/facebook.png"width="25"></a>
+      </div>
+      <div id="instagram">              
+       <a href="https://www.instagram.com/markdivweb/"><img src="img/instagram.png"width="25"></a>
+      </div>
+     </div>
+  </div>
+</div>
+<!--/Rotape-->
+<script src="script.js"></script>
+</body>
+</html>
